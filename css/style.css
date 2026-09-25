@@ -1805,9 +1805,9 @@ textarea.form-control {
     display: flex;
   }
 
-  /* Hero Section Centering */
-  .hero-section {
-    padding-top: calc(var(--header-height) + 30px);
+  /* Hero Section Centering & Spacing */
+  #hero.hero-section {
+    padding-top: calc(var(--header-height) + 40px) !important;
     padding-bottom: 50px;
   }
 
@@ -1824,7 +1824,7 @@ textarea.form-control {
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin: 0 auto;
+    margin: 25px auto 25px;
   }
 
   .avatar-wrapper {
@@ -1886,6 +1886,11 @@ textarea.form-control {
 @media (max-width: 768px) {
   .section {
     padding: 60px 0;
+  }
+
+  #hero.hero-section {
+    padding-top: calc(var(--header-height) + 35px) !important;
+    padding-bottom: 40px;
   }
 
   .section-header {
@@ -2056,6 +2061,11 @@ textarea.form-control {
 
   .section {
     padding: 48px 0;
+  }
+
+  #hero.hero-section {
+    padding-top: calc(var(--header-height) + 30px) !important;
+    padding-bottom: 35px;
   }
 
   /* Compact Navbar Actions */
